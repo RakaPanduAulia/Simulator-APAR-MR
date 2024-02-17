@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -944,6 +944,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 113768, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1607906048}
+    - targetCorrespondingSourceObject: {fileID: 113768, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1607906049}
   m_SourcePrefab: {fileID: 100100000, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
 --- !u!1 &1388220434
 GameObject:
@@ -1088,6 +1091,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 3648047529842393463, guid: be0e7fc5872155e4c8221315ac845725, type: 3}
   spawnSpeed: 5
+--- !u!114 &1607906049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1607906046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17843ec4d92e25240bc0d90730249ff4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1625074066 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 459718, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
@@ -1173,6 +1188,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bounce Sphere
       objectReference: {fileID: 0}
+    - target: {fileID: 3648047529842393463, guid: be0e7fc5872155e4c8221315ac845725, type: 3}
+      propertyPath: m_TagString
+      value: Ball
+      objectReference: {fileID: 0}
     - target: {fileID: 4982963211327779183, guid: be0e7fc5872155e4c8221315ac845725, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1225,7 +1244,7 @@ SceneRoots:
   - {fileID: 705507995}
   - {fileID: 1349523599}
   - {fileID: 620612891}
-  - {fileID: 1283760793}
   - {fileID: 1184898864}
+  - {fileID: 1283760793}
   - {fileID: 453629804616116615}
   - {fileID: 229464682}
